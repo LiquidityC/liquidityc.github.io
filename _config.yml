@@ -10,3 +10,5 @@ github_username:  LiquidityC
 
 # Build settings
 markdown: kramdown
+plugins:
+  - jekyll-feed
