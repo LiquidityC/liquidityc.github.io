@@ -2,6 +2,7 @@
 title:  "SDL event overflow"
 layout: post
 date:   2018-05-16 19:19
+author: linus_probert
 categories: SDL SDL2 gamedev c c++
 ---
 
