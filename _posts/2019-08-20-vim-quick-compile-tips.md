@@ -1,11 +1,11 @@
 ---
 title:  "Vim quick-compile tips"
 layout: post
+author: Linus Probert
 date:   2019-08-20 13:21
-categories: vim compile gcc c/c++ code programming
+tags: vim compile gcc c/c++ code programming
 ---
 
-# An addition to my .vimrc
 Ever been hacking on a small program based on something you 
 read on the internet, partaking in a hackathon or programming competition
 or coding segments based on a book you're reading?
@@ -47,3 +47,19 @@ working through.
 Hope that it can help you.
 
 // Liq
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+        this.page.url = '{{ site.url }}';
+        this.page.identifier = '{{ page.url }}';
+    };
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        
+        s.src = '//linuxcodehacks.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
