@@ -2,12 +2,10 @@
 title:  "Building a game page"
 layout: post
 date:   2018-03-25 20:14
-categories: game gamedev c sdl2 rpg roguelike
+categories: gamedev
 tags: game gamedev c sdl2 rpg roguelike
 comments: true
 ---
-
-## Creating a game page
 I've gotten far enough now to post some screenshots and create a
 dedicated page for BreakHack. Attaching a widget below.
 

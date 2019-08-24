@@ -2,7 +2,7 @@
 title:  "Just a thought about programming languages"
 layout: post
 date:   2018-03-30 20:39
-categories: java C programming code OOP
+categories: programming
 tags: java C programming code OOP
 comments: true
 ---

@@ -2,6 +2,7 @@
 title:  "Vim quick-compile tips"
 layout: post
 date:   2019-08-20 13:21
+category: vim
 tags: vim compile gcc c/c++ code programming
 comments: true
 ---

@@ -4,6 +4,7 @@ title: "[SOLVED] mysqldump breaking character encoding on Swedish characters..."
 date: 2014-03-08 11:42:09.000000000 +01:00
 comments: true
 author: Linus Probert
+category: mysql
 type: post
 ---
 <p>So... I was up for 4 hours too long last night fiddling with the stupid backups of a webshop that I wrote, launched and maintain for my wifes shop (http://www.houseofme.se/webshop).</p>

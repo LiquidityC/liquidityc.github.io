@@ -2,7 +2,7 @@
 title:  "Fun with cows and fortunes"
 layout: post
 date:   2018-07-06 09:45
-categories: python fortune cowsay fun
+categories: programming
 tags: python fortune cowsay fun
 comments: true
 ---

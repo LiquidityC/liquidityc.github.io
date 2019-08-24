@@ -2,7 +2,7 @@
 title:  "Problems with valgrind and SDL"
 layout: post
 date:   2017-12-07 22:56
-categories: sdl2 sdl valgrind c c++
+categories: gamedev
 tags: sdl2 sdl valgrind c c++
 comments: true
 ---

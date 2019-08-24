@@ -2,6 +2,8 @@
 layout: post
 title: Vim stuff that I found (UltiSnips)
 date: 2015-10-16 14:44:33.000000000 +02:00
+category: vim
+tags: vim plugin
 comments: true
 type: post
 ---

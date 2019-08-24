@@ -2,7 +2,7 @@
 title:  "Cross-compiling SDL from linux to windows (mingw/make)"
 layout: post
 date:   2015-10-29 09:58
-categories: compile sdl crosscompile windows
+categories: gamedev
 comments: true
 ---
 

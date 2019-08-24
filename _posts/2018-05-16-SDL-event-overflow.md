@@ -2,7 +2,7 @@
 title:  "SDL event overflow"
 layout: post
 date:   2018-05-16 19:19
-categories: SDL SDL2 gamedev c c++
+categories: gamedev
 tags: SDL SDL2 gamedev c c++
 comments: true
 ---

@@ -2,7 +2,7 @@
 title:  "BreakHack is in open beta"
 layout: post
 date:   2018-08-15 18:19
-categories: breakhack beta game gamedev
+categories: gamedev
 tags: breakhack beta game gamedev
 comments: true
 ---

@@ -2,7 +2,7 @@
 title:  "A long long break and a new game"
 layout: post
 date:   2017-12-07 14:40
-categories: sdl2 game roguelike c
+categories: gamedev
 tags: sdl2 game roguelike c
 comments: true
 ---
