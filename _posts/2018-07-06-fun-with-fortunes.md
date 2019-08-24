@@ -2,8 +2,9 @@
 title:  "Fun with cows and fortunes"
 layout: post
 date:   2018-07-06 09:45
-author: linus_probert
 categories: python fortune cowsay fun
+tags: python fortune cowsay fun
+comments: true
 ---
 
 So, thought I'd write a post...
@@ -15,9 +16,9 @@ reddit. Generally the top voted posts on that page can be quite amusing.
 
 Now, like many linux terminal junkies I've always used the old
 
-{% highlight bash %}
+```bash
 fortune | cowsay
-{% endhighlight %}
+```
 
 when my terminal opens up.
 
@@ -35,7 +36,7 @@ url:
 [https://www.reddit.com/r/Showerthoughts/top/.rss](https://www.reddit.com/r/Showerthoughts/top/.rss).
 
 And building upon that I got this:
-{% highlight python %}
+```python
 #!/usr/bin/python
 
 import feedparser
@@ -78,7 +79,7 @@ for post in rss.entries:
 quotes = [quote.strip() for quote in sorted(set(quotes))]
 
 save_list_to_file(quotes, fname)
-{% endhighlight %}
+```
 
 I won't go into detail, but essentially this is the gist of it:
 - Open a file and read possible existing "showerthoughts"
@@ -89,9 +90,9 @@ I won't go into detail, but essentially this is the gist of it:
 
 Googling some more gave me the following command to create .dat files from these
 text files:
-{% highlight bash %}
+```bash
 strfile -c % /usr/share/fortune/showerthoughts /usr/share/fortune/showerthoughts.dat
-{% endhighlight %}
+```
 
 So, now I had a script that concats current top showerthoughts to ones I've
 fetched earlier and a command that converts the output of that command to a .dat
@@ -105,20 +106,3 @@ you're new to this. But that's what I did to fetch new showerthoughts into my
 fortune db every hour.
 
 // Liq
-
-<div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-        this.page.url = '{{ site.url }}';
-        this.page.identifier = '{{ page.url }}';
-    };
-    (function() {  // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        
-        s.src = '//linuxcodehacks.disqus.com/embed.js';
-        
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>

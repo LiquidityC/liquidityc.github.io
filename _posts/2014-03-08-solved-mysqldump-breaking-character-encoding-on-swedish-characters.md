@@ -2,6 +2,8 @@
 layout: post
 title: "[SOLVED] mysqldump breaking character encoding on Swedish characters..."
 date: 2014-03-08 11:42:09.000000000 +01:00
+comments: true
+author: Linus Probert
 type: post
 ---
 <p>So... I was up for 4 hours too long last night fiddling with the stupid backups of a webshop that I wrote, launched and maintain for my wifes shop (http://www.houseofme.se/webshop).</p>
@@ -30,20 +32,3 @@ type: post
 <p>I hope this helps someone as much as it relieved me when I found the solution. Because I was really pissed and really nervous when I relaized the issue since it might have meant that all the backups of the production environment were more or less useless.</p>
 <p>I'm not a big writer so I'm going to end here. Good luck to anyone else who has this problem.</p>
 <p>//Liq</p>
-
-<div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-		this.page.url = '{{ site.url }}';
-        this.page.identifier = '{{ page.url }}';
-    };
-    (function() {  // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        
-        s.src = '//linuxcodehacks.disqus.com/embed.js';
-        
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>

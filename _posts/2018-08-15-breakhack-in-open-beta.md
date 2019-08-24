@@ -2,9 +2,9 @@
 title:  "BreakHack is in open beta"
 layout: post
 date:   2018-08-15 18:19
-author: Linus Probert
 categories: breakhack beta game gamedev
 tags: breakhack beta game gamedev
+comments: true
 ---
 ![]({{ "/assets/bh-icon.png" | absolute_url }}){:style="float: right" width="80px"}
 Ok, so my roguelike "BreakHack" has finally reached open beta. If you are
@@ -76,22 +76,4 @@ spawn after dungeon level 5, there is only one boss so far and the game doesn't
 end. Depending on how deep people seem to get there should be a win state after
 level 15ish.
 
-Thanks //
-    Linus
-
-<div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-        this.page.url = '{{ site.url }}';
-        this.page.identifier = '{{ page.url }}';
-    };
-    (function() {  // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        
-        s.src = '//linuxcodehacks.disqus.com/embed.js';
-        
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+Thanks // Linus

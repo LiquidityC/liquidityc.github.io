@@ -2,8 +2,9 @@
 title:  "SDL event overflow"
 layout: post
 date:   2018-05-16 19:19
-author: linus_probert
 categories: SDL SDL2 gamedev c c++
+tags: SDL SDL2 gamedev c c++
+comments: true
 ---
 
 Sooo, I was made aware of an exploit today that was new to me.
@@ -149,20 +150,3 @@ should be something you fix before anyone figures it out. In larger games I
 figure it could have an even bigger impact.
 
 // Liq
-
-<div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-        this.page.url = '{{ site.url }}';
-        this.page.identifier = '{{ page.url }}';
-    };
-    (function() {  // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        
-        s.src = '//linuxcodehacks.disqus.com/embed.js';
-        
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>

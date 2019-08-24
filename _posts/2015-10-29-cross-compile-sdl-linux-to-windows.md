@@ -3,6 +3,7 @@ title:  "Cross-compiling SDL from linux to windows (mingw/make)"
 layout: post
 date:   2015-10-29 09:58
 categories: compile sdl crosscompile windows
+comments: true
 ---
 
 So, I struggled __a lot__ with this lately but finally got a standalone
@@ -200,20 +201,3 @@ cleanall:
     @for d in $(LIBRARIES); do (cd $$d; $(MAKE) $(MFLAGS) --no-print-directory clean ); done
     @$(RM) -f $(EXECUTABLE) $(PROG_OBJECTS)
 {% endhighlight %}
-
-<div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-        this.page.url = '{{ site.url }}';
-        this.page.identifier = '{{ page.url }}';
-    };
-    (function() {  // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        
-        s.src = '//linuxcodehacks.disqus.com/embed.js';
-        
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>

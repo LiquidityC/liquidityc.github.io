@@ -2,6 +2,7 @@
 layout: post
 title: Vim stuff that I found (UltiSnips)
 date: 2015-10-16 14:44:33.000000000 +02:00
+comments: true
 type: post
 ---
 <p>So, I'm an avid vim user since many years back. Always happy to find new cool plugins to make my days easier.</p>
@@ -9,20 +10,3 @@ type: post
 <p>Now to the meat of the post. <a href="https://github.com/SirVer/ultisnips">UltiSnips</a> is a fantastic plug-in for vim. The applications in my everyday coding seem to be limitless and since all the snips are custom made they will always suit me. Sure there is some time spent on creating them, but the creation process is embedded in my regular coding creating a very smooth work flow. Code, insert snips, code, create/edit snips, code. <a href="http://thedailywtf.com/articles/The_Brillant_Paula_Bean">Brillant!</a></p>
 <p>I'll try to get back with more stuff more frequently. This is certainly not the first cool thing I found on the web since my last post. It's just that I usually just end up telling colleagues at work about things I find and then it ends there.</p>
 <p>// Liq</p>
-
-<div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-		this.page.url = '{{ site.url }}';
-        this.page.identifier = '{{ page.url }}';
-    };
-    (function() {  // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        
-        s.src = '//linuxcodehacks.disqus.com/embed.js';
-        
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>

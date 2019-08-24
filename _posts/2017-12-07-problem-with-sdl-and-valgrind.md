@@ -3,6 +3,8 @@ title:  "Problems with valgrind and SDL"
 layout: post
 date:   2017-12-07 22:56
 categories: sdl2 sdl valgrind c c++
+tags: sdl2 sdl valgrind c c++
+comments: true
 ---
 
 So, I'm working on my new
@@ -116,20 +118,3 @@ order to make this post. I just stumbled upon it because I was having a problem
 and I thought I'd share it with... the internet and the google spiders.
 
 // Liq
-
-<div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-        this.page.url = '{{ site.url }}';
-        this.page.identifier = '{{ page.url }}';
-    };
-    (function() {  // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        
-        s.src = '//linuxcodehacks.disqus.com/embed.js';
-        
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>

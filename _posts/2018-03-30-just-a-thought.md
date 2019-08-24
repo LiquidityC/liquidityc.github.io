@@ -3,6 +3,8 @@ title:  "Just a thought about programming languages"
 layout: post
 date:   2018-03-30 20:39
 categories: java C programming code OOP
+tags: java C programming code OOP
+comments: true
 ---
 
 So, I've been writing a lot of C lately. Coming from a background of almost only
@@ -38,20 +40,3 @@ nobody reading :P
 
 Until next time,
 // Liq
-
-<div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-        this.page.url = '{{ site.url }}';
-        this.page.identifier = '{{ page.url }}';
-    };
-    (function() {  // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        
-        s.src = '//linuxcodehacks.disqus.com/embed.js';
-        
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>

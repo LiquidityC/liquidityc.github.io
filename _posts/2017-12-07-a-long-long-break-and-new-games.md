@@ -3,6 +3,8 @@ title:  "A long long break and a new game"
 layout: post
 date:   2017-12-07 14:40
 categories: sdl2 game roguelike c
+tags: sdl2 game roguelike c
+comments: true
 ---
 
 ...I finally decided to write a new post. That, honestly, nobody is going to be
@@ -40,20 +42,3 @@ I will be using. It's freeing up a lot of time. Also I'm letting the existing
 artwork decide what goes in the game which is handy for inspiration.
 
 // Liq
-
-<div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-        this.page.url = '{{ site.url }}';
-        this.page.identifier = '{{ page.url }}';
-    };
-    (function() {  // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        
-        s.src = '//linuxcodehacks.disqus.com/embed.js';
-        
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>

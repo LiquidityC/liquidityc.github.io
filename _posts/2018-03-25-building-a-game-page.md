@@ -3,6 +3,8 @@ title:  "Building a game page"
 layout: post
 date:   2018-03-25 20:14
 categories: game gamedev c sdl2 rpg roguelike
+tags: game gamedev c sdl2 rpg roguelike
+comments: true
 ---
 
 ## Creating a game page
@@ -14,20 +16,3 @@ dedicated page for BreakHack. Attaching a widget below.
 I guess I'll post more when I've got more to share.
 
 // Liq
-
-<div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-        this.page.url = '{{ site.url }}';
-        this.page.identifier = '{{ page.url }}';
-    };
-    (function() {  // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        
-        s.src = '//linuxcodehacks.disqus.com/embed.js';
-        
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
