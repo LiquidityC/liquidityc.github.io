@@ -13,3 +13,4 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 author: Linus Probert
+google_analytics: UA-146452707-1
