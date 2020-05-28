@@ -10,6 +10,7 @@ github_username:  LiquidityC
 
 # Build settings
 markdown: kramdown
+include: [".well-known"]
 plugins:
   - jekyll-feed
 author: Linus Probert
