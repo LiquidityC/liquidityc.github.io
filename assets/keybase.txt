@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/liquidityc
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://liquidityc.github.io
+  * I am liquidityc (https://keybase.io/liquidityc) on keybase.
+  * I have a public key ASBA6_ob9ZGo5z8ifYcA6SPGceOl9tLAu26AkCsH6l2X7Qo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012023abfbba913767e7d8884ba0a645441baf99948152c17ae92d241384b511118b0a",
+      "host": "keybase.io",
+      "kid": "012040ebfa1bf591a8e73f227d8700e923c671e3a5f6d2c0bb6e80902b07ea5d97ed0a",
+      "uid": "dda2cfc3437cb9692dfcf3ae8613ae19",
+      "username": "liquidityc"
+    },
+    "merkle_root": {
+      "ctime": 1590664594,
+      "hash": "ef7cd193b787489f46a739cb9369e282075a3c2dafe75ee45daf30511865c9c5e23e09de61a7cdb0757b76df329acedda5cd692dac4b6ee3c9a645216b5ec216",
+      "hash_meta": "07b91b2b1b242b9d4aad4ccb3659259633fd2e7e1cc613beffa90de48b072e4e",
+      "seqno": 16429435
+    },
+    "service": {
+      "entropy": "iz8NPIEsSqTLqUv8ccUdtws9",
+      "hostname": "liquidityc.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.1"
+  },
+  "ctime": 1590664682,
+  "expire_in": 504576000,
+  "prev": "d090cba07de08ed691c1f7a765584967865c06ec4f01dc98c76dfdeb7c944cfb",
+  "seqno": 50,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgQOv6G/WRqOc/In2HAOkjxnHjpfbSwLtugJArB+pdl+0Kp3BheWxvYWTESpcCMsQg0JDLoH3gjtaRwfenZVhJZ4ZcBuxPAdyYx23963yUTPvEIJ+mXZaV5j48KF7pd4kNRGxPhpPYMbF5sK1CjYH9zn9ZAgHCo3NpZ8RASfL7VTVQC7j0ylAwgbsl6KmO/wCjKY5lakhBv9UO15S2AKy1/mytCn2ukPWresGywRGFxO33kbtoS4D19W5WAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHw2Foa4Knq3k+LkeD2see8Od/3ZQnoUciICzRp1p9ppo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/liquidityc
+
+==================================================================
