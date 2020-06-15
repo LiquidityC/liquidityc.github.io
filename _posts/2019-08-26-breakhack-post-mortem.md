@@ -18,13 +18,13 @@ However, if I'd had plans on earning some money through my game then here is a
 list of things that I could have done better. I'll give you the short list and
 then explain each point in it's own time.
 
-- Patience and play testers
-- Beta testers
-- General installation confirmation
-- Marketing
-- Final thoughts
+- [Patience and play testers](#patience)
+- [Beta testers](#beta-testers)
+- [General installation confirmation](#installation-confirmation)
+- [Marketing](#marketing)
+- [Final thoughts](#final-thoughts)
 
-## Patience and play testers
+## <a name="patience"></a> Patience and play testers
 I was pretty excited to get my game up on steam. I was also rather short on
 time so I really wanted to get things done and uploaded during my summer
 holiday when I had the time to work on those sorts of things.  Since I was a
@@ -66,7 +66,7 @@ released the game when I and some play testers agreed that it was ready.
 
 **TL;DR You're game has to be interesting and fun from day one**
 
-## Beta testers
+## <a name="beta-testers"></a> Beta testers
 This one is rather obvious. But you need beta testers. I had one which was
 great but two or three more couldn't have hurt. Players who don't know the code
 will try other things that you won't. If you're lucky they will break stuff so
@@ -76,7 +76,7 @@ I didn't get many issues in the bug department after release but I feel that I
 might have been able to earn some additional feedback through some additional
 testers. Different people different ideas so to speak.
 
-## General installation confirmation
+## <a name="installation-confirmation"></a> General installation confirmation
 This was my biggest error. If you're using steam or any other platform. Make
 sure that your stuff works properly on all available platforms. My main mistake
 was the linux release. It worked for me when I tested it but apparently I was
@@ -96,7 +96,7 @@ releasing on. This is easy to do through [vagrant](https://www.vagrantup.com)
 or [virtualbox](https://www.virtualbox.org) if you're not running it as your
 dev environment.
 
-## Marketing
+## <a name="marketing"></a> Marketing
 I don't have much ideas here really since it was never a priority for me. I did
 notice however that upon setting up my steam store page I did get a lot of
 traffic to it.  If you are committed to your project I don't think it's a bad
@@ -109,7 +109,7 @@ release has to be somewhat reasonable to keep people from gaining an interest
 and coming back for more information. There are people who are better at this
 then I am. Just google a bit.
 
-## Final thoughts
+## <a name="final-thoughts"></a> Final thoughts
 In my case I did earn my initial investment into steam back. Eg. I got my $100
 back. This was my only goal really. However, I think I might have actually
 earned some money if the game was first released in it's current state rather
