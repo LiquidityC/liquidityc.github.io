@@ -27,7 +27,7 @@ gsettings set org.gnome.desktop.background picture-uri "file://$BG_DIR/$next"
 Nice. Worked like a charm. Now let's just stuff that in cron with a 10 minute
 rotation and we should be golden. Like this:
 
-```crontab
+```cron
 */10 * * * * sh ~/bin/wallpaper_rotator.sh
 
 ```
@@ -44,7 +44,7 @@ display to operate on etc.
 This solution actually took me a bit to find so I thought I'd share it again to
 help anyone in the future. Here is what you need to feed into cron:
 
-```crontab
+```cron
 */10 * * * * env DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus sh ~/bin/wallpaper_rotator.sh
 ```
 
